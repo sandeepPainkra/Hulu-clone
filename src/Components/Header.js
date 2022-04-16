@@ -1,3 +1,11 @@
+import {
+  FlashOn,
+  Home,
+  LiveTv,
+  PersonOutline,
+  Search,
+  VideoLibrary,
+} from "@material-ui/icons";
 import React from "react";
 
 const Header = () => {
@@ -5,7 +13,28 @@ const Header = () => {
     <div className="header">
       <div className="header_left">
         <div className="header_leftIcon">
-          <h5>icons</h5>
+          <Home />
+          <p>home</p>
+        </div>
+        <div className="header_leftIcon">
+          <FlashOn />
+          <p>Trending</p>
+        </div>
+        <div className="header_leftIcon">
+          <LiveTv />
+          <p>Verified</p>
+        </div>
+        <div className="header_leftIcon">
+          <VideoLibrary />
+          <p>Collections</p>
+        </div>
+        <div className="header_leftIcon">
+          <Search />
+          <p>Search</p>
+        </div>
+        <div className="header_leftIcon">
+          <PersonOutline />
+          <p>Account</p>
         </div>
       </div>
       <div className="header_right">

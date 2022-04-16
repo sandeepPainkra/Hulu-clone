@@ -1,4 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
-/* 
-font-family: 'Orbitron', sans-serif; */
+
 /* header starts here */
+
+.header {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  background-color: #0c333d;
+  color: #fff;
+  justify-content: space-between;
+}
+.header .header_leftIcon {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 1.9rem; */
+  cursor: pointer;
+  text-align: center !important;
+}
+.header .header_leftIcon:hover- > .header_leftIcon p {
+  display: block !important;
+}
+.header_leftIcon .MuiSvgIcon-root {
+  font-size: 1.7rem;
+  margin: 0 auto;
+}
+.header_left {
+  min-width: 590px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_left p:hover {
+  display: block !important;
+}
+.header_left p {
+  transition: all 500ms;
+  font-size: small;
+  text-transform: uppercase;
+  display: none;
+}
+
+.header_right .logo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
